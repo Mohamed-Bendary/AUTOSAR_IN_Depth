@@ -1,0 +1,2 @@
+../AUTOSAR_Implementation/DoorSensorAbstractionSWC.c:20:16:LedSwitch_Runnable	16	static
+../AUTOSAR_Implementation/DoorSensorAbstractionSWC.c:46:6:ReadDoorSensor_Runnable	16	static

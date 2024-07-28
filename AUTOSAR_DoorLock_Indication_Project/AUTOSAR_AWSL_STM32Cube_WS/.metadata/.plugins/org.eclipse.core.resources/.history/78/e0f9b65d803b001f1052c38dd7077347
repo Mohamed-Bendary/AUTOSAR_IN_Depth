@@ -1,0 +1,21 @@
+/*
+ * DIO.h
+ *
+ *  Created on: Jul 6, 2024
+ *      Author: dell
+ */
+
+#ifndef MCAL_DIO_H_
+#define MCAL_DIO_H_
+
+
+/* Here We will implement  MCAL_DIO APIS compliant with AUTOSAR Schema
+ * But still not fully AUTOSAR compliant till we get to the MCAL unit */
+
+unsigned char DIO_ReadCHannel   (unsigned char A_ID);
+void          DIO_WriteChannel  (unsigned char A_ID , unsigned char A_Level);
+
+
+
+
+#endif /* MCAL_DIO_H_ */

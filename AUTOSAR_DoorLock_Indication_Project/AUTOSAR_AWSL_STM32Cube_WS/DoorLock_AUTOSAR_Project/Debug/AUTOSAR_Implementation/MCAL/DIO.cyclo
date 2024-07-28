@@ -1,0 +1,2 @@
+../AUTOSAR_Implementation/MCAL/DIO.c:11:15:DIO_ReadChannel	1
+../AUTOSAR_Implementation/MCAL/DIO.c:19:15:DIO_WriteChannel	1

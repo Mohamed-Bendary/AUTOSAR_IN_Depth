@@ -1,0 +1,9 @@
+/*
+ * DoorLock_Indication_SWC.c
+ *
+ *  Created on: Jul 27, 2024
+ *      Author: Bendary
+ */
+
+#include "RTE_Genertaed/Rte_DoorLock_Indication_SWC.h"
+#include "RTE_Genertaed/Rte_DoorLock_Indication_SWC_Type.h"

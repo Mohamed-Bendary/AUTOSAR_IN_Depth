@@ -1,0 +1,28 @@
+22:27:57 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j12 all 
+arm-none-eabi-gcc  -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Embedded courses/AUTOSAR_IN_DEPTH/DoorLock_WS/AUTOSAR_AWSL_STM32Cube_WS/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Embedded courses/AUTOSAR_IN_DEPTH/DoorLock_WS/AUTOSAR_AWSL_STM32Cube_WS/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc  -gdwarf-2 -o "DoorLock_AUTOSAR_Project.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Embedded courses\AUTOSAR_IN_DEPTH\DoorLock_WS\AUTOSAR_AWSL_STM32Cube_WS\DoorLock_AUTOSAR_Project\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoorLock_AUTOSAR_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoorLock_AUTOSAR_Project.elf
+ 
+arm-none-eabi-size  DoorLock_AUTOSAR_Project.elf 
+arm-none-eabi-objdump -h -S DoorLock_AUTOSAR_Project.elf  > "DoorLock_AUTOSAR_Project.list"
+   text	   data	    bss	    dec	    hex	filename
+   3224	      8	   1720	   4952	   1358	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoorLock_AUTOSAR_Project.list
+ 
+22:31:36 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j12 all 
+arm-none-eabi-gcc  -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Embedded courses/AUTOSAR_IN_DEPTH/DoorLock_WS/AUTOSAR_AWSL_STM32Cube_WS/DoorLock_AUTOSAR_Project/HAL/includes" -I"D:/Embedded courses/AUTOSAR_IN_DEPTH/DoorLock_WS/AUTOSAR_AWSL_STM32Cube_WS/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc  -gdwarf-2 -o "DoorLock_AUTOSAR_Project.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Embedded courses\AUTOSAR_IN_DEPTH\DoorLock_WS\AUTOSAR_AWSL_STM32Cube_WS\DoorLock_AUTOSAR_Project\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoorLock_AUTOSAR_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoorLock_AUTOSAR_Project.elf
+ 
+arm-none-eabi-size  DoorLock_AUTOSAR_Project.elf 
+arm-none-eabi-objdump -h -S DoorLock_AUTOSAR_Project.elf  > "DoorLock_AUTOSAR_Project.list"
+   text	   data	    bss	    dec	    hex	filename
+   3160	      8	   1720	   4888	   1318	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoorLock_AUTOSAR_Project.list
+ 

@@ -1,0 +1,22 @@
+/*
+ * DIO.c
+ *
+ *  Created on: Jul 6, 2024
+ *      Author: dell
+ */
+
+#include "DIO.h"
+
+
+unsigned char DIO_ReadCHannel   (unsigned char ID)
+{
+
+	return MCAL_GPIO_ReadPin(GPIO_PORT_USED, ID);
+
+
+}
+void          DIO_WriteChannel  (unsigned char ID , unsigned char Level)
+{
+
+
+}

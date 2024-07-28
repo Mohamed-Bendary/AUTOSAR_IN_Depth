@@ -1,0 +1,25 @@
+/*
+ * DoorLock_Indication_SWC.c
+ *
+ *  Created on: Jul 27, 2024
+ *      Author: Bendary
+ */
+
+#include "RTE_Genertaed/Rte_DoorLock_Indication_SWC.h"
+
+
+
+
+void DoorLock_Indication_Runnable(void)
+{
+
+ unsigned char DoorState = 0;
+
+ /* Read the Door state from the SR interface sent by the ECU abstraction SWC */
+
+
+
+
+
+}
+
